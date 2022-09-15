@@ -1,10 +1,16 @@
 {
   "name": "@stuyk/vitepress-sidebar-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "license": "GNUv3",
   "private": false,
+  "keywords": [
+    "vitepress",
+    "sidebar",
+    "vitepress sidebar",
+    "vitepress-plugin"
+  ],
   "scripts": {
     "dev": "node ./scripts/refresh.js",
     "build": "tsc && tsc --emitDeclarationOnly --outDir dist",
