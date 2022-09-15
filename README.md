@@ -67,7 +67,7 @@ export default {
                 {
                     text: 'Just the Files',
                     collapsible: true,
-                    items: [...getFilesAndOrderByPath('./docs/lots-of-files', ['_partial'])]
+                    items: SidebarBuilder.get.filesAndOrder('./docs/lots-of-files', ['_partial'])
                 },
                 // Obtains Many Folders & All files
                 ...SidebarBuilder.get.foldersAndOrder('./docs/lots-of-files', {

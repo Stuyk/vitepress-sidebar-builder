@@ -16,7 +16,7 @@
     "build": "tsc && tsc --emitDeclarationOnly --outDir dist",
     "tests": "npm run test:file 'tests/**/*.spec.ts'",
     "test:file": "mocha --require ts-node/register",
-    "publish": "npm run build && npm publish"
+    "publish": "npm run build"
   },
   "repository": {
     "type": "git",
