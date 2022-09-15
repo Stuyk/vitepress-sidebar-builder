@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "license": "GNUv3",
+  "private": false,
   "scripts": {
     "dev": "node ./scripts/refresh.js",
     "build": "tsc && tsc --emitDeclarationOnly --outDir dist",
