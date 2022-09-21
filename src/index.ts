@@ -85,7 +85,6 @@ function filesAndOrder(folderPath: string, filesToIgnore: Array<string> = []): A
         return a.order - b.order;
     });
 
-    console.log(sortedResults);
     return sortedResults;
 }
 
